@@ -2,42 +2,14 @@
 # megatouch-host loads the game with RTLD_NOW, so each of these must be defined
 # (usually in src/host/loader_services.cpp) before the game will start.
 # symbol | needed by
-GetTouchCoord(int*, int*, int*) | taiplay_new.so
-ScreenIsTouched() | taiplay_new.so
-ProcessRTPackets() | taiplay_new.so
-MeritthonDisplayRound(int, int, int, unsigned long) | taiplay_new.so
 t_i_l() | taiplay_new.so
-u_m_m_s(char const*, char*, char*, unsigned int) | taiplay_new.so
-PlayWave(char*, unsigned short, int, int, int, bool) | taiplay_new.so
-QueFlush(bool) | taiplay_new.so
 TextSystem::DisplayOnBitmap(NBitmap&, char const*, CoordT<int> const*, CoordT<int> const*, bool, bool) | taiplay_new.so
 TextSystem::SetTextDescription(TextDesc const&) | taiplay_new.so
-Translator::nTranslate(char*, unsigned int, char const*) | taiplay_new.so
-db_gamedata::gamedata_record::gamedata_record(db_gamedata::gamedata_record const&) | taiplay_new.so
-db_gamedata::gamedata_record::gamedata_record() | taiplay_new.so
-db_gamedata::gamedata_record::~gamedata_record() | taiplay_new.so
-system_info::Get_Motherboard_Type() | taiplay_new.so
-Books::Credits(xml_gameinfo::GameIds, enums::Span) | taiplay_new.so
-Books::Instance() | taiplay_new.so
 USBIO::USBConfirmKeyID(unsigned char) | taiplay_new.so
 USBIO::FoundUSB() | taiplay_new.so
 USBIO::Instance() | taiplay_new.so
-Bitmap::ConvertSmack(unsigned char) | taiplay_new.so
-Bitmap::CreateSmackTextBox(char const*, FontBase*, signed char, unsigned short, unsigned short, bool) | taiplay_new.so
-Bitmap::SmackAnimationAdvance(unsigned char) | taiplay_new.so
-Bitmap::CreateColoredTextBoxTTF(char const*, int, int, int, int, int, int, int, int, int, bool, char*, int) | taiplay_new.so
-Bitmap::CreateColoredTextBoxTTFS(char const*, int, int, int, int, int, int, int, int, int, bool, char*, int) | taiplay_new.so
-Bitmap::Clear() | taiplay_new.so
-Bitmap::GreyBmp() | taiplay_new.so
-Bitmap::Compress(bool, int, unsigned short*) | taiplay_new.so
-Bitmap::LoadJPEG(char*, int, int, unsigned char) | taiplay_new.so
-Bitmap::LoadSmack(char*, unsigned char, unsigned char) | taiplay_new.so
 Colour::black | taiplay_new.so
 Colour::white | taiplay_new.so
 NBitmap::WrapAllegroBitmap(BITMAP*) | taiplay_new.so
 NBitmap::~NBitmap() | taiplay_new.so
 TextDesc::SetFontName(char const*) | taiplay_new.so
-clear_bitmap | taiplay_new.so
-gfx_driver | taiplay_new.so
-masked_blit | taiplay_new.so
-screen | taiplay_new.so
