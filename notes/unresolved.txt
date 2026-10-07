@@ -4,12 +4,8 @@
 # symbol | needed by
 t_i_l() | taiplay_new.so
 TextSystem::DisplayOnBitmap(NBitmap&, char const*, CoordT<int> const*, CoordT<int> const*, bool, bool) | taiplay_new.so
-TextSystem::SetTextDescription(TextDesc const&) | taiplay_new.so
 USBIO::USBConfirmKeyID(unsigned char) | taiplay_new.so
 USBIO::FoundUSB() | taiplay_new.so
 USBIO::Instance() | taiplay_new.so
-Colour::black | taiplay_new.so
-Colour::white | taiplay_new.so
 NBitmap::WrapAllegroBitmap(BITMAP*) | taiplay_new.so
 NBitmap::~NBitmap() | taiplay_new.so
-TextDesc::SetFontName(char const*) | taiplay_new.so
